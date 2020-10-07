@@ -1,0 +1,99 @@
+h1{
+	text-align: center;
+	margin: 0px;
+}
+.tabel tr{
+    border: 2px solid #028f19 ;
+}
+.tabel1 {
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: #000000;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #edf3f0;
+    /*meletakkan tabel ke tengah*/
+    margin: 10px auto;
+}
+ 
+.tabel1 tr th{
+    background: #2ac92a;
+    color: #ffffff;
+    font-weight: normal;
+    padding: 15px 15px;
+}
+ 
+.tabel1 tr td {
+    padding: 15px 15px;
+    text-align: center;
+}
+ 
+.tabel1 tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.tabel1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.kotak{
+    width: 50%;
+    margin: auto 150px;
+    background: #2ac92a;
+    border: 2px;
+}
+
+.green {
+    text-decoration: none;
+    background: #2ac92a;
+    color: white;
+    font-size: 12pt;
+    width: 50%;
+    float: right;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+
+.green:hover{
+    background: #028f19;
+}
+
+.form1{
+    clear: both;
+}
+.red {
+    text-decoration: none;
+    background: #ff1731;
+    color: white;
+    font-size: 11pt;
+    /* width: 70%; */
+    /* float: right; */
+    border: none;
+    border-radius: 3px;
+    padding: 5px 25px;
+}
+
+.red:hover{
+    background: #cb0017;
+}
+.blue {
+    text-decoration: none;
+    background: #218fff;
+    color: white;
+    font-size: 11pt;
+    width: 70%;
+    float: right;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+
+.blue:hover{
+    background: #0165cb;
+}
+hr{
+    border: 5px solid #028f19;
+}

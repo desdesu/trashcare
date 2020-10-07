@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add mentor</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/slideshowcss.css">
+    </head>
+
+    <body>
+        <!-- Header Menu -->
+        <center>
+            <div class="header">
+                <table  class="menu">
+                    <tr>
+                        <td align="left" style="padding-right:285px;">
+                            <font style="font-size: 30px; margin-left: -15px;">TR<img src="../tc.png" width="30" height="30">SHCARE</font>
+                        </td>
+                        <td align="right">
+                            <td class="x"><a href="../PHP/admin.php">HOME</a></td>
+                            <td><a href="logout.php"><img class="logo" src="../logout.png" alt="logout"></a></td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </center>
+
+        <!-- Table Profil -->
+        <section class="container container-medium" style="margin-top: 50px;">
+            <h1 style="text-align: center;">Add Mentor</h1>
+            <form action="../PHP/add_mentor.php" method="POST">
+            <table class="table table-striped" style="margin-left: 25%;width: 500px;">
+                <thead class="thead-green">
+                    <tr>
+                        <th>IDENTITY</th>
+                        <th>VALUE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="nama" class="form" placeholder="enter name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" name="email" class="form" placeholder="enter email"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="pass" class="form" placeholder="enter password"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="text" name="nohp" class="form" placeholder="enter phone number"></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><input type="text" name="alamat" class="form" placeholder="enter address"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button class="button join" style="margin-top: 2px;" type="submit">SUBMIT</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+        </section>
+
+        <footer style="margin-top: 120px;">
+            <center>
+                Copyright TRASHCARE 2019 | ALL RIGHTS RESERVED<br>
+            </center>
+        </footer>
+    </body>
+</html>
